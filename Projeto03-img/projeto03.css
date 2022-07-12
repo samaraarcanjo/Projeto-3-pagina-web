@@ -1,0 +1,485 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div.contanier{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 1024px;
+	height: 1522px;
+	background-image: url("container.gif");
+}
+body{
+	background-color: #000000;
+
+
+}
+div.um{
+	width: 902px; 
+	height: 60px;
+	background-image: url("menu.gif");
+	position: relative;
+	margin: 0 auto;
+
+}
+div.dois{
+	width: 902px; 
+	height: 300px;
+	background-image: url("top_cab.jpg");
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 59px;
+
+}
+div.dois h1{
+	position: relative;
+	color: #FFD700;
+	font-family: Arial;
+	top: 80px;
+	left: 48px;
+	font-size: 40px;
+}
+div.dois p{
+	position: relative;
+	color: #FFD700;
+	font-family: Arial;
+	top: 70px;
+	left: 55px;
+	font-size: 16px;
+}
+div.tres{	
+	width: 464px; 
+	height: 200px;
+	background-image: url("bottom_cab.jpg");
+	position: relative;
+	margin: 0 auto;
+}
+
+.wrapper-BoxMid{
+	background-image: url("caixa_meio.gif");
+	margin: 0 auto;
+	width: 902px; 
+}
+
+div.quatro{	
+	width: 100%;
+	height: 500px;
+	background-image: url("caixa_meio.gif");
+	position: relative;
+	margin: 0 auto;
+}
+div.cinco{	
+	width: 902px; 
+	height: 307px;
+	/* background-image: url("rodape.gif"); */
+	/* background-image: url("caixa_meio.gif"); */
+	position: relative;
+	margin: 0 auto;
+}
+
+div.contaniercaixa{
+	width: 899px;
+	margin: 0 auto;
+	position: absolute;
+	height: 200px;
+	left: 50%;
+	transform: translateX(-50%);
+
+
+}
+div.caixaum{
+	width: 220px; 
+	height: 200px;
+	background-image: url("caixa_cab2.gif");
+	font-size: 12px;
+	position: absolute;
+	font-family: Arial;
+	color: #000000;
+	margin: 0 auto;
+	left: 0px;
+	
+}
+
+div.menubgum{
+	width: 155px; 
+	height: 100px;
+	float: top;
+	top: 55px;
+	float: left;
+	left: -160.5px;
+	background-image: url("menu_bg.gif");
+	position: relative;
+	margin: 0 auto;
+	
+}
+div.menubgum p{
+	padding: 4px;
+	font-family: Arial;
+	font-size: 11px;
+
+}
+div.menubgtres p{
+	padding: 4px;
+	font-family: Arial;
+	font-size: 11px;
+
+}
+div.decoraum{
+	width: 187px; 
+	height: 28px;
+	float: top;
+	top: 25px;
+	float: left;
+	left: 8px;
+	background-image: url("decora01.gif");
+	position: relative;
+	
+}
+p.decoraum{
+	margin: 0 auto;
+	padding: 4px;
+	padding-left: 20px;
+
+}
+
+div.menubgdois{
+	width: 155px; 
+	height: 50px;
+	float: top;
+	top: 55px;
+	float: right;
+	left: 143.5px;
+	background-image: url("menu_bg.gif");
+	position: relative;
+	margin: 0 auto;
+}
+div.menubgdois p{
+	padding: 4px;
+	font-family: Arial;
+	font-size: 11px;
+}
+div.decoradois{
+	width: 187px; 
+	height: 28px;
+	float: top;
+	top: 25px;
+	float: right;
+	left: -30px;
+	background-image: url("decora01.gif");
+	position: relative;
+	margin: 0 auto;
+}
+div.preasentdois{
+	width: 409px;
+	height: 52px;
+	background-image: url("decora03.gif");
+	float: top;
+	/* top: -268px;
+	left: -15px; */
+	position: relative;
+	margin: 0 auto;
+
+}
+div.cinco p{
+	margin: 0 auto;
+	padding: 18px;
+	font-size: 14px;
+	text-align: center;
+}
+p.meiocinco{
+	margin: 0 auto;
+	padding: 0px;
+	padding-top: 18px;
+	text-align: left;
+	float: left;
+	left: 10px;
+	font-size: 13px;
+
+}
+div.menubgtres{
+	width: 155px; 
+	height: 100px;
+	float: top;
+	top: 180px;
+	float: left;
+	left: -315.5px;
+	background-image: url("menu_bg.gif");
+	position: relative;
+	margin: 0 auto;
+
+}
+div.menubgtres p{
+	padding: 4px;
+	font-family: Arial;
+	font-size: 11px;
+
+}
+div.decoratres{
+	width: 187px; 
+	height: 28px;
+	float: top;
+	top: 180px;
+	float: left;
+	left: -334px;
+	background-image: url("decora01.gif");
+	position: relative;
+	margin: 0 auto;
+}
+
+div.menubgquatro{
+	width: 155px; 
+	height: 50px;
+	float: top;
+	top: 105px;
+	float: right;
+	left: 143.5px;
+	background-image: url("menu_bg.gif");
+	position: relative;
+	margin: 0 auto;
+}
+div.decoraquatro{
+	width: 187px; 
+	height: 28px;
+	float: top;
+	top: 78px;
+	float: right;
+	left: -30px;
+	background-image: url("decora01.gif");
+	position: relative;
+	margin: 0 auto;
+
+}
+div.menubgquatro p{
+	padding: 4px;
+	font-family: Arial;
+	font-size: 11px;
+
+}
+p.connection{
+	color: #32CD32;
+
+}
+div.caixadomeio{
+	width: 480px; 
+	height: 63px;
+	float: top;
+	top: -102px;
+	float: left;
+	left: 200px;
+	background-image: url("decora02.gif");
+	position: relative;
+	margin: 0 auto;
+}
+p.caixadomeio{
+	margin: 0 auto;
+	padding: 22px;
+	text-align: center;
+	font-size: 13px;
+
+}
+p.meio{
+	font-size: 12px;
+	font-family: Arial;
+	margin: 0 auto;
+	padding: 0px;
+	float: left;
+	text-align: left;
+	left: 10px;
+
+}
+
+div.texto p{
+	position: relative;
+	width: 486px;
+	font-size: 14px;
+	font-family: Arial;
+	margin: 0 auto;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	text-align: justify;
+	
+}
+
+p.paragrafos{
+	font-size: 14px;
+	font-family: Arial;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	text-align: justify;
+	padding-left: 17px;
+
+}
+div.preasent li{
+	padding-top: 0px;
+	left: 0px;
+	top: 0px;
+}
+li.frente{
+	font-family: Arial;
+	position: relative;
+	font-size: 14px;
+	left: 10px;
+}
+
+div.caixadois{
+	padding: 20px 0;
+	width: 220px; 
+	height: 200px;
+	background-image: url("caixa_cab.gif");
+	background-repeat: no-repeat;
+	position: absolute;
+	margin: 0 auto;
+	text-align: justify;
+	right: 0px;
+}
+p.caixa{
+	margin: 0 auto;
+	text-align: center !important;
+}
+div.caixatres{
+	padding-left: 32px;
+	padding-right: 24px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+
+h4.projeto{
+	position: relative;
+	top: 36px;
+	left: 70px;
+	color: #000000;
+	font-size: 14px;
+}
+form{
+	position: relative;
+	float: right;
+	top: 33px;
+	left: 20px;
+	padding-right: 40px;
+
+}
+input#login{
+	position: relative;
+	width: 80px;
+	height: 30px;
+	background-image: url("botao.gif");
+	float: right;
+	top: 7px;
+	right: 46px;
+	border: 0 none;
+}
+input#email{
+	position: relative;
+	width: 130px;
+}
+input#passwd{
+	position: relative;
+	width: 130px;
+}
+p.acesso{
+	position: relative;
+	width: 90px;
+	text-align: center;
+	float: left;
+	top: 30px;
+	left: 60px;
+	padding-right: 40px;
+	font-size: 9px;
+
+}
+ul.menu-h-dd{
+	list-style: none;
+	font-size: 18px;
+	position: relative;
+}
+ul.menu-h-dd li{
+	width: 120px;
+	height: 23px;
+	float: right;
+	left: 5px;
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+	font-family: Arial;
+}
+ul.menu-h-dd li a{
+	text-decoration: none;
+	color:  #FFD700;
+}
+ul.menu-h-dd li ul{
+	position: absolute;
+	list-style: none;
+	display: none;
+	width: 150px;
+}
+ul.menu-h-dd li:hover ul{
+	display: block;
+}
+
+p{
+	text-align: justify;
+	padding: 10px;
+	color: #444;
+	font-family: Arial;
+
+}
+div.Um h1{
+	position: absolute;
+	top: 150px;
+	left: 540px;
+}
+div.Cinco p{
+	top: 0px;
+	left: 10px;
+	text-align: center;
+}
+
+
+hr{
+	border-color: #deb887;
+	top: 20px;
+}
+div.ultimotexto hr{
+	position: relative;
+	border-color: #deb887;
+	width: 258px;
+	left: 197px;
+	top: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.p-w{
+	width: 480px;
+	text-align: justify !important;
+}
+div.write{
+	position: relative;
+	margin: 0 auto;
+	padding-top: 18px;
+	text-align: left;
+	top: -16px;
+	left: 232px;
+	font-size: 8px;
+}
+
+.wrapper-BoxEnd{
+	background-image: url("rodape.gif");
+	background-repeat: no-repeat;
+	width: 902px; 
+	height: 169px;
+	margin: 0 auto;
+
+}
+div.rodape{
+	position: relative;
+	padding-top: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	top: 50px;
+	font-family: Arial;
+}
